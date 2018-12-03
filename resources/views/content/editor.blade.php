@@ -34,7 +34,9 @@
 
         <!-- <div class="manul-wrapper"> -->
 
-        <img src="{{ asset('resources/assets/img/cat-v9.png') }}" alt="manul" class="manul-3d">
+        {{--<img src="{{ asset('resources/assets/img/cat-v9.png') }}" alt="manul" class="manul-3d">--}}
+
+        <canvas id="myCanvas"></canvas>
 
         <!-- </div> -->
 

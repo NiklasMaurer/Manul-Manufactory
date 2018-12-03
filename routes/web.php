@@ -43,5 +43,9 @@ Route::get('/customer-service', function () {
     return view('content.customer-service');
 });
 
+Route::get('/threejs', function () {
+    return view('content.threejs');
+});
+
 
 
