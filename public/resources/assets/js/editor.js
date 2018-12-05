@@ -3386,13 +3386,13 @@ THREE.GLTFLoader = ( function () {
 var loader = new THREE.GLTFLoader();
 
 // Optional: Provide a DRACOLoader instance to decode compressed mesh data
-THREE.DRACOLoader.setDecoderPath( '/examples/js/libs/draco' );
-loader.setDRACOLoader( new THREE.DRACOLoader() );
+/*THREE.DRACOLoader.setDecoderPath( '/examples/js/libs/draco' );
+loader.setDRACOLoader( new THREE.DRACOLoader() );*/
 
 // Load a glTF resource
 loader.load(
     // resource URL
-    'public/resources/assets/manul.gltf',
+    '/resources/assets/manul.gltf',
     // called when the resource is loaded
     function ( gltf ) {
 
