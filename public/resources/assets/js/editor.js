@@ -1,5 +1,5 @@
 // Instantiate a loader
-var loader = new THREE.GLTFLoader();
+var loader = new THREE.DefaultLoadingManager();
 
 // Optional: Provide a DRACOLoader instance to decode compressed mesh data
 THREE.DRACOLoader.setDecoderPath( '/examples/js/libs/draco' );
