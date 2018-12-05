@@ -43,8 +43,9 @@
 
         <div class="btn-wrapper">
 
-            <button class="btn btn-add-to-wishlist" type="submit" name="cart">Add To Wishlist</button>
             <button class="btn btn-add-to-cart" type="submit" name="cart">Add To Cart</button>
+            <button class="btn btn-add-to-wishlist" type="submit" name="cart">Add To Wishlist</button>
+
 
         </div>
 

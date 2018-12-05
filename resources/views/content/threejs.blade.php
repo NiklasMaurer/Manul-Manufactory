@@ -4,8 +4,9 @@
   {{--  <style>
         canvas{
             background: aliceblue;
+            width: 300px; height: 300px;
         }
     </style>--}}
-  <canvas id="myCanvas" width="900" height="900" style="width: 300px; height: 300px;"></canvas>
+  <canvas id="myCanvas" width="900" height="900"></canvas>
 
 @endsection
