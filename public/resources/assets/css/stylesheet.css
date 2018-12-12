@@ -1012,6 +1012,7 @@ footer p a:nth-child(5){
     }
 
     .type-selector {
+        width: 75px;
         height: 45px;
         margin: 10px auto 0 auto;
     }
@@ -1036,6 +1037,13 @@ footer p a:nth-child(5){
     }
 }
 
+@media screen and (max-width: 667px) {
+
+    .wrapper-type {
+        width: 627px;
+    }
+}
+
     @media screen and (max-width: 610px) {
 
         .wrapper{
@@ -1050,6 +1058,14 @@ footer p a:nth-child(5){
             flex-wrap: wrap;
         }
     }
+
+
+    @media screen and (max-width: 568px) {
+
+    .wrapper-type {
+        width: 528px;
+    }
+}
 
     @media screen and (max-width: 500px) {
 
