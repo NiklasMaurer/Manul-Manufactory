@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Robaga Rounded';
+    src: url(resources/assets/fonts/Robaga Rounded Regular.otf);
+}
+
 html{
     box-sizing: border-box;
     padding: 0;
