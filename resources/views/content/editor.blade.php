@@ -30,8 +30,8 @@
             <h3 class="headline-select">Type:</h3>
 
             <ul class="editor type-editor">
-                <li><div class="ears-standard"></div>Standard</li>
-                <li><div class="ears-bunny"></div><div class="ears-bunny"></div>Bunny</li>
+                <li><a href="#"><img class="ears-bunny" src="{{ asset('resources/assets/img/ears-standard-rechteck.png') }}">Standard</a></li>
+                <li><a href="#"><img class="ears-bunny" src="{{ asset('resources/assets/img/ears-bunny-rechteck.png') }}">Bunny</a></li>
             </ul>
 
         </div>

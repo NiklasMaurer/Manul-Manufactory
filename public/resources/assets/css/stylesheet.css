@@ -211,6 +211,15 @@ nav {
 
 
 .start_nav li a:hover{
+     transform: scale(0.9);
+     border-radius: 50px;
+     border: 3px solid white;
+     cursor: pointer;
+     transition: 0.3s;
+     transition-timing-function: ease-in-out;
+ }
+
+.start_nav li a:focus{
     transform: scale(0.9);
     border-radius: 50px;
     border: 3px solid white;
@@ -541,12 +550,11 @@ nav {
     justify-content: center;
     margin-top: 20px;
 }
-
 .ears-bunny{
-    width: 25px;
+/*    width: 25px;
     height: 65px;
     background-color: grey;
-    border-radius: 35px;
+    border-radius: 35px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -677,6 +685,7 @@ label{
     display: flex;
     justify-content: center;
     padding-top: 70px;
+    font-weight: 500;
 }
 
 .auth-headline-secundary{
@@ -787,6 +796,15 @@ footer p a:hover{
 
 footer p a:not(:hover){
     transition: 0.3s;
+}
+
+footer p a:focus{
+    transform: scale(0.9);
+    border-radius: 50px;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 footer p a:first-child{
@@ -968,7 +986,7 @@ footer p a:nth-child(5){
     .ears-standard {
         width: 45px;
         height: 45px;
-        margin-top: 10px;
+        margin: 10px auto 0 auto;
     }
 
     .wrapper {
@@ -994,8 +1012,7 @@ footer p a:nth-child(5){
 
     .ears-bunny {
         height: 45px;
-        width: 20px;
-        margin-top: 10px;
+        margin: 10px auto 0 auto;
     }
 
     #myCanvas {
