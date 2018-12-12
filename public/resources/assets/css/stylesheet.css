@@ -550,25 +550,26 @@ nav {
     justify-content: center;
     margin-top: 20px;
 }
-.ears-bunny{
+.type-selector{
 /*    width: 25px;
     height: 65px;
     background-color: grey;
     border-radius: 35px;*/
+    width: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px auto 5px auto;
 }
 
-.type-editor li div:nth-child(2){
+/*.type-editor li div:nth-child(2){
     margin-left: 20px;
-}
+}*/
 
-.type-editor li:nth-child(2){
+/*.type-editor li:nth-child(2){
     padding: 0 20px 0 20px;
     height: 150px;
-}
+}*/
 
 
 /* .manul-wrapper{
@@ -1010,7 +1011,7 @@ footer p a:nth-child(5){
         height: 100px;
     }
 
-    .ears-bunny {
+    .type-selector {
         height: 45px;
         margin: 10px auto 0 auto;
     }
