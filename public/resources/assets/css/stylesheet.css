@@ -1,6 +1,16 @@
 @font-face {
+    font-family: 'Robaga Rounded light';
+    src: url('fonts/Robaga Rounded Light.otf');
+}
+
+@font-face {
     font-family: 'Robaga Rounded';
     src: url('fonts/Robaga Rounded Regular.otf');
+}
+
+@font-face {
+    font-family: 'Königsberg';
+    src: url('fonts/Kînigsberg Demo.otf');
 }
 
 html{
