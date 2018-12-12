@@ -5,6 +5,10 @@
 
     <div class="content-editor">
 
+        <div class="editor-wrapper">
+
+            <div class="editor-menu-wrapper">
+
         <div class="wrapper">
 
             <h3 class="headline-select">Region:</h3>
@@ -32,11 +36,16 @@
 
         </div>
 
+                </div>
+
         <!-- <div class="manul-wrapper"> -->
 
         {{--<img src="{{ asset('resources/assets/img/cat-v9.png') }}" alt="manul" class="manul-3d">--}}
-
+        <div class="wrapper-canvas">
         <canvas id="myCanvas"></canvas>
+        </div>
+
+        </div>
 
         <!-- </div> -->
 

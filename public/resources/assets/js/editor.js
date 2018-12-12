@@ -28,7 +28,7 @@ renderer.setClearColor( 0x000000, 0 );
 
 
 //CAMERA
-var camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.1, 1000);
+var camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.1, 3000);
 
 
 //SCENE
@@ -44,15 +44,15 @@ scene.add(light1);
 
 
 //MODEL
-var loader = new THREE.JSONLoader();
+/*var loader = new THREE.JSONLoader();
 loader.load('/resources/assets/manul.json', handle_load);
 
 function handle_load(geometry, materials){
     var mesh = new THREE.Mesh(geometry, materials);
     scene.add(mesh);
     mesh.position.z = -10;
-}
-/*
+}*/
+
 //GEOMETRY
 var geometry = new THREE.CubeGeometry(200, 200, 200);
 
@@ -63,20 +63,21 @@ var material = new THREE.MeshLambertMaterial({color: 0x7E807E});;
 var mesh = new THREE.Mesh(geometry, material);
 mesh.position.set(40, -70, -800);
 
-scene.add(mesh);*/
+scene.add(mesh);
 
 
 //ANIMATION
-/*requestAnimationFrame(render);
+requestAnimationFrame(render);
 
 function render(){
     mesh.rotation.x += 0.01;
     mesh.rotation.y += 0.03;
     renderer.render(scene, camera);
     requestAnimationFrame(render);
-}*/
+}
 
 //RENDER LOOP
+/*
 render();
 
 function render(){
@@ -84,8 +85,9 @@ function render(){
 
     requestAnimationFrame(render);
 }
+*/
 
-/*renderer.render(scene, camera);*/
+renderer.render(scene, camera);
 
 
 
