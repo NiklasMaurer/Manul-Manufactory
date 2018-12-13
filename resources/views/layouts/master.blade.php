@@ -77,8 +77,8 @@
 </body>
 <script src="{{ asset('resources/assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('resources/assets/js/user-experience.js') }}"></script>
-{{--<script src="GLTFLoader.js"></script>--}}
 <script src="{{ asset('resources/assets/js/three.js') }}"></script>
+<script src="{{ asset('resources/assets/js/GLTFLoader.js') }}"></script>
 <script src="{{ asset('resources/assets/js/editor.js') }}"></script>
 
 </html>
