@@ -533,12 +533,9 @@ nav {
     margin-right: 40px;
 }
 
-.btn-wrapper{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    width: 410px;
-}
+
+
+
 
 /* .headline-select{
   margin: 0 20px;
@@ -593,6 +590,13 @@ nav {
   width: 300px;
 } */
 
+.btn-wrapper{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 410px;
+}
+
 .btn-add-to-cart{
     width: 200px;
     font-size: 18px;
@@ -614,6 +618,7 @@ nav {
     display: flex;
     margin: 115px auto 0 auto;
 }
+
 
 
 
@@ -1281,7 +1286,7 @@ footer p a:nth-child(5){
         }
 
         .wrapper {
-            width: 280px;
+            width: 304px;
         }
 
         footer p a:nth-child(3) {
@@ -1289,3 +1294,9 @@ footer p a:nth-child(5){
         }
     }
 
+@media screen and (max-width: 320px) {
+
+    .wrapper {
+        width: 280px;
+    }
+}
