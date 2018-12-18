@@ -28,7 +28,27 @@
                     <ul class="start_nav">
 
                         <li class=""><a href="/editor">Editor</a></li>
-                        <li class=""><a href="/sign-in">Log In <span class="backslash">/</span> Sign Up</a></li>
+                        @if(Auth::check())
+                            <li>
+                                {{--<a href="{{ route('logout') }}" class="btn session-btn">Logout {{ Auth::user()->name }}</a>--}}
+                                <a href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </li>
+                        @endif
+
+                        @if(!Auth::check())
+                           {{-- <a href="{{ 'login' }}" class="btn session-btn">Login</a>
+                            <a href="" class="btn session-btn">Register</a>--}}
+                            <li class=""><a href="/sign-in">Log In <span class="backslash">/</span> Sign Up</a></li>
+                        @endif
+
                         <li class=""><a href="/about-us">About Us</a></li>
                         <li class=""><a href="/cart">Cart</a></li>
 
@@ -47,6 +67,9 @@
     </nav>
 
 </header>
+
+
+
 
 
 @yield('content')
@@ -75,6 +98,7 @@
 </footer>
 
 </body>
+<script>window.asset = {!! json_encode(['path' => asset('resources')]) !!}</script>
 <script src="{{ asset('resources/assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('resources/assets/js/user-experience.js') }}"></script>
 <script src="{{ asset('resources/assets/js/three.js') }}"></script>

@@ -6,6 +6,8 @@
 
     <div class="content">
 
+
+
     <img src="{{ asset('resources/assets/img/greeting.png') }}" alt="Welcome to Manul Manufactory" class="greeting">
 
 

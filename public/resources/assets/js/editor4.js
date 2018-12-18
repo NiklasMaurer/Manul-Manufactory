@@ -44,14 +44,16 @@ scene.add(light1);
 
 
 //MODEL
-/*var loader = new THREE.JSONLoader();
-loader.load('/resources/assets/manul.json', handle_load);
+var loader = new THREE.GLTFLoader();
+loader.load('/resources/assets/manul.gltf', handle_load);
 
-function handle_load(geometry, materials){
+function handle_load(gltf){
+    console.log(gltf)
+    /*
     var mesh = new THREE.Mesh(geometry, materials);
     scene.add(mesh);
-    mesh.position.z = -10;
-}*/
+    mesh.position.z = -10;*/
+}
 
 //GEOMETRY
 var geometry = new THREE.CubeGeometry(200, 200, 200);

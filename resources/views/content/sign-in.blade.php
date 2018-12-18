@@ -2,11 +2,68 @@
 @section('title', 'Sign in')
 @section('content')
 
-    <div class="content">
+    <div class="content" xmlns="http://www.w3.org/1999/html">
 
     <h2 class="auth-headline">Log In</h2>
 
-    <form class="form-group" method="post" action="#">
+        <form method="POST" action="{{ route('login') }}" class="form-group">
+            @csrf
+            <fieldset>
+                <div class="form-wrapper">
+
+            <div class="fields">
+                <label for="email">{{ __('Email') }}</label>
+
+                    <input id="email" type="email" class="form_input{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="z.B.: manul@email.com" required autofocus><br>
+
+                    @if ($errors->has('email'))
+                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                    @endif
+
+            </div>
+
+            <div class="fields">
+                <label for="password">{{ __('Password') }}</label><br>
+                    <input id="password" type="password" class="form_input{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="z.B.: manul123" required>
+
+                    @if ($errors->has('password'))
+                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                    @endif
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-md-6 offset-md-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                        <label class="form-check-label" for="remember">
+                            {{ __('Remember Me') }}
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            </fieldset>
+
+            <div class="form-group row mb-0">
+                <div class="col-md-8 offset-md-4">
+                    <button type="submit" class="btn btn-primary" name="submit-login">
+                        {{ __('Login') }}
+                    </button>
+
+                    {{--<a class="btn btn-link" href="{{ route('password.request') }}">
+                        {{ __('Forgot Your Password?') }}
+                    </a>--}}
+                </div>
+            </div>
+        </form>
+
+    {{--<form class="form-group" method="post" action="#">
         <fieldset>
 
             <div class="form-wrapper">
@@ -32,7 +89,7 @@
 
         <button type="submit" class="btn">Log In</button>
 
-    </form>
+    </form>--}}
 
 
     <!-- </div> -->
@@ -40,7 +97,68 @@
 
     <h2 class="auth-headline auth-headline-secundary">Sign Up</h2>
 
-    <form class="form-group" method="post" action="#">
+        <form method="POST" action="{{ route('register') }}" class="form-group">
+            @csrf
+
+            <fieldset>
+
+            <div class="form-wrapper">
+
+
+                <div class="fields">
+
+                <label for="name">{{ __('Name') }}<span class="required">*</span></label><br>
+                    <input id="name" type="text" class="form_input{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" placeholder="z.B.: Otocolobus" required autofocus>
+
+                    @if ($errors->has('name'))
+                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                    @endif
+
+                </div>
+
+
+            <div class="fields">
+                <label for="email">{{ __('Email') }}<span class="required">*</span></label><br>
+
+                    <input id="email" type="email" class="form_input{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="z.B.: manul@email.at" required>
+
+                    @if ($errors->has('email'))
+                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                    @endif
+            </div>
+
+            <div class="fields">
+                <label for="password">{{ __('Password') }}<span class="required">*</span></label>
+
+                    <input id="password" type="password" class="form_input{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="z.B.: manul123" required>
+
+                    @if ($errors->has('password'))
+                        <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                    @endif
+            </div>
+
+            <div class="fields">
+                <label for="password-confirm">{{ __('Confirm Password') }}<span class="required">*</span></label>
+
+                    <input id="password-confirm" type="password" class="form_input" name="password_confirmation" placeholder="z.B.: manul123" required>
+            </div>
+
+            </div>
+
+        </fieldset>
+
+                    <button type="submit" class="btn" name="submit-register">
+                        {{ __('Register') }}
+                    </button>
+        </form>
+
+    {{--<form class="form-group" method="post" action="{{ route('register') }}">
         <fieldset>
 
             <div class="form-wrapper">
@@ -146,7 +264,7 @@
 
         <button type="submit" class="btn">Sign Up</button>
 
-    </form>
+    </form>--}}
 
     </div>
 

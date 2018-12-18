@@ -670,6 +670,44 @@ nav {
 
 /* Login */
 
+
+/* SESSION */
+
+.session-wrapper{
+    width: 200px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.session-wrapper h3{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.session-btn{
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.invalid-feedback{
+    font-family: 'Königsberg', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    color: #FF7C95;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
 .form-group{
     font-family: 'Königsberg', sans-serif;
     text-align: center;
@@ -749,6 +787,10 @@ hr {
     color: #FBBE24;
 }
 
+.form-check{
+    margin-bottom: 20px;
+}
+
 /* Cart */
 
 .cart-content{
@@ -770,6 +812,10 @@ hr {
 .manul-head-flipped{
     transform: RotateY(180deg);
 }
+
+
+
+
 
 
 
