@@ -46,7 +46,9 @@
                         @if(!Auth::check())
                            {{-- <a href="{{ 'login' }}" class="btn session-btn">Login</a>
                             <a href="" class="btn session-btn">Register</a>--}}
-                            <li class=""><a href="/sign-in">Log In <span class="backslash">/</span> Sign Up</a></li>
+                            {{--<li class=""><a href="/sign-in">Log In</a></li><span class="backslash">/</span> Sign Up</a></li>--}}
+                            <li><a href="{{ 'login' }}">Log In</a><span class="backslash">|</span><a href="{{ 'register' }}" id="sign-in">Sign Up</a></li>
+
                         @endif
 
                         <li class=""><a href="/about-us">About Us</a></li>

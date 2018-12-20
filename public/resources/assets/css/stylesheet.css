@@ -253,7 +253,7 @@ nav {
 }
 
 .start_nav li:nth-child(2){
-    width: 95%;
+    width: 80%;
     border-radius: 100px;
 }
 
@@ -272,9 +272,18 @@ nav {
     padding-top: 50px;
 }
 
+/*#sign-in{
+    width: 245px;
+}*/
+
 .backslash{
-    font-family: 'Robaga Rounded', sans-serif;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-family: 'Comic sans ms', sans-serif;
+    font-weight: 800;
+    color: white;
+    width: 28px;
+    margin-bottom: 2px;
 }
 
 .logo{
@@ -706,6 +715,7 @@ nav {
     border: 2px solid;
     border-radius: 5px;
     padding: 20px;
+    letter-spacing: 1.2px;
 }
 
 .form-group{

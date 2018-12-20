@@ -25,6 +25,8 @@ renderer.setClearColor(0x00ff00);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(300, 400);
 renderer.setClearColor( 0x000000, 0 );
+renderer.gammaOutput = true;
+renderer.gammaFactor = 2.2;
 
 
 //CAMERA
@@ -66,10 +68,16 @@ function handle_load(gltf){
 // model
 var path = window.asset.path + '/assets/manul7.gltf';
 var loader = new THREE.GLTFLoader();
+
 loader.load( path, function ( gltf ) {
     console.log(gltf);
-    var mesh = gltf.scene.children[ 0 ];
-    mesh.position.z = -100;
+    var material = new THREE.MeshNormalMaterial();
+    var mesh = gltf.scene;
+    mesh.position.set(0, -1.7, -20);
+    mesh.rotateY(80);
+    mesh.castShadow = true;
+    /*mesh.position.z = -40;*/
+
     var vnh = new THREE.VertexNormalsHelper( mesh, 15 );
     scene.add( vnh );
 
@@ -83,7 +91,16 @@ loader.load( path, function ( gltf ) {
 
     } );
 */
-    scene.add( gltf.scene );
+    scene.add( mesh );
+
+    requestAnimationFrame(render);
+
+    function render(){
+        mesh.rotation.x += 0.00;
+        mesh.rotation.y += 0.01;
+        renderer.render(scene, camera);
+        requestAnimationFrame(render);
+    }
 
 }, undefined, function ( e ) {
 
@@ -96,12 +113,12 @@ var geometry = new THREE.CubeGeometry(200, 200, 200);
 
 
 //MATERIAL
-var material = new THREE.MeshLambertMaterial({color: 0x7E807E});
+/*var material = new THREE.MeshLambertMaterial({color: 0x7E807E});*/
 
-var mesh = new THREE.Mesh(geometry, material);
-/*mesh.position.set(40, -70, -800);*/
+var mesh = new THREE.Mesh(geometry /*material*/);
+/*mesh.position.set(40, -70, -800);
 
-/*/scene.add(mesh);*/
+scene.add(mesh);*/
 
 
 //ANIMATION

@@ -17,14 +17,14 @@
             "componentType" : 5126,
             "count" : 223,
             "max" : [
-                1.0438450574874878,
-                1.18716299533844,
-                -0.9589620232582092
+                0.5841460227966309,
+                0.7552850246429443,
+                -0.26075199246406555
             ],
             "min" : [
-                -1.0438450574874878,
-                -1.18716299533844,
-                -2.681605100631714
+                -0.5841460227966309,
+                -0.7552850246429443,
+                -2.3104379177093506
             ],
             "type" : "VEC3"
         },
@@ -33,13 +33,13 @@
             "componentType" : 5126,
             "count" : 223,
             "max" : [
-                0.999969482421875,
-                0.9678030014038086,
+                1.0,
+                0.9602954387664795,
                 1.0
             ],
             "min" : [
-                -0.999969482421875,
-                -0.9678030014038086,
+                -1.0,
+                -0.9602954387664795,
                 -1.0
             ],
             "type" : "VEC3"
@@ -51,16 +51,30 @@
             "max" : [
                 1.0,
                 1.0,
-                0.10467232018709183,
+                0.09951228648424149,
                 1.0
             ],
             "min" : [
                 -1.0,
                 -1.0,
-                -0.10467240959405899,
+                -0.09967359900474548,
                 1.0
             ],
             "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 223,
+            "max" : [
+                1.0,
+                1.0
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
         }
     ],
     "asset" : {
@@ -91,54 +105,30 @@
             "byteLength" : 3568,
             "byteOffset" : 7536,
             "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1784,
+            "byteOffset" : 11104,
+            "target" : 34962
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 11104,
-            "uri" : "manul4.bin"
-        }
-    ],
-    "images" : [
-        {
-            "name" : "Cotton-WeaveWithGradientMap-100010000",
-            "uri" : "Cotton-WeaveWithGradientMap-100010000.jpg"
-        },
-        {
-            "name" : "Cotton-Weave-100010000",
-            "uri" : "Cotton-Weave-100010000.jpg"
-        }
-    ],
-    "materials" : [
-        {
-            "alphaMode" : "BLEND",
-            "name" : "lambert3SG",
-            "normalTexture" : {
-                "index" : 1
-            },
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.9725490212440491,
-                    0.9686269760131836,
-                    0.9411759972572327,
-                    1.0
-                ],
-                "baseColorTexture" : {
-                    "index" : 0
-                },
-                "metallicFactor" : 0.0
-            }
+            "byteLength" : 12888,
+            "uri" : "manul-body2.bin"
         }
     ],
     "meshes" : [
         {
-            "name" : "grp_cat cat_head",
+            "name" : "grp_catcat_body",
             "primitives" : [
                 {
                     "attributes" : {
                         "NORMAL" : 2,
                         "POSITION" : 1,
-                        "TANGENT" : 3
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
                     },
                     "indices" : 0
                 }
@@ -148,7 +138,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "grp_cat cat_head",
+            "name" : "grp_catcat_body",
             "rotation" : [
                 0.7071068286895752,
                 0.0,
@@ -157,9 +147,6 @@
             ]
         }
     ],
-    "samplers" : [
-        {}
-    ],
     "scene" : 0,
     "scenes" : [
         {
@@ -167,16 +154,6 @@
             "nodes" : [
                 0
             ]
-        }
-    ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
         }
     ]
 }
