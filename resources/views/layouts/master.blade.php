@@ -29,7 +29,7 @@
 
                         <li class=""><a href="/editor">Editor</a></li>
                         @if(Auth::check())
-                            <li>
+                            <li class="nav-logout">
                                 {{--<a href="{{ route('logout') }}" class="btn session-btn">Logout {{ Auth::user()->name }}</a>--}}
                                 <a href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
@@ -100,11 +100,9 @@
 </footer>
 
 </body>
-<script>window.asset = {!! json_encode(['path' => asset('resources')]) !!}</script>
+
 <script src="{{ asset('resources/assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('resources/assets/js/user-experience.js') }}"></script>
-<script src="{{ asset('resources/assets/js/three.js') }}"></script>
-<script src="{{ asset('resources/assets/js/GLTFLoader.js') }}"></script>
-<script src="{{ asset('resources/assets/js/editor.js') }}"></script>
+
 
 </html>

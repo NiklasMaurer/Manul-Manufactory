@@ -197,7 +197,7 @@ nav {
 .start_nav li {
     margin: 0 auto;
     display: flex;
-    width: auto;
+    /*width: auto;*/
     justify-content: center;
     overflow: hidden;
 }
@@ -252,9 +252,13 @@ nav {
     border-radius: 100px;
 }
 
-.start_nav li:nth-child(2){
+/*.start_nav li:nth-child(2){
     width: 80%;
     border-radius: 100px;
+}*/
+
+.nav-logout{
+    width: 70%;
 }
 
 .start_nav li:nth-child(3){
@@ -271,6 +275,7 @@ nav {
 .start_nav:first-child{
     padding-top: 50px;
 }
+
 
 /*#sign-in{
     width: 245px;

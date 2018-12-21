@@ -60,4 +60,10 @@
 
     </div>
 
+
+    <script>window.asset = {!! json_encode(['path' => asset('resources')]) !!}</script>
+    <script src="{{ asset('resources/assets/js/three.js') }}"></script>
+    <script src="{{ asset('resources/assets/js/GLTFLoader.js') }}"></script>
+    <script src="{{ asset('resources/assets/js/editor.js') }}"></script>
+
 @endsection
