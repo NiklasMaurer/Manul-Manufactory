@@ -1,32 +1,15 @@
 @extends('layouts.master')
 @section('title', 'Cart')
 @section('content')
-    <?php $cart = Session::get('cart'); ?>
 
 
     <div class="content">
 
 
-        {{--@if($cart)
-
-            @for ($i = 1; $i<= count($cart); $i++)
-
-                {{$i . $cart[$i]['name']}}
-
-
-            @endfor
-
-        @endif--}}
-
-        {{--<div class="cart-wrapper">--}}
-
-
         <h2 class="auth-headline">Cart</h2>
 
+        @if(count($cart) <= 0)
 
-        {{--<div class="cart-content">--}}
-
-        @if(!$cart)
 
         <div class="cart-wrapper cart-wrapper-empty">
 
@@ -38,15 +21,13 @@
 
         <a class="btn btn-checkout btn-cart-editor" href="/editor" name="cart">Go to Editor</a>
 
-        @endif
 
-
-        @if($cart)
-
+        @else
 
 
                     <div class="cart-wrapper">
 
+                        @foreach($cart as $item)
                         <div class="cart-item-wrap">
 
                             <div class="cart-item-list">
@@ -56,13 +37,10 @@
 
                                 </form>
                                 <ul>
-                                    @if($cart)
+                                    @foreach($item as $idx => $part)
+                                        <li>{{ $idx . ' ' . $part['name'] }}</li>
+                                    @endforeach
 
-                                        @for ($i = 1; $i<= count($cart); $i++)
-                                    <li>{{$i . $cart[$i]['name']}}</li>
-                                        @endfor
-
-                                    @endif
                                 </ul>
 
                                 <h6 class="price">€25,-</h6>
@@ -75,22 +53,13 @@
                             </div>
 
                         </div>
+                        @endforeach
 
                     </div>
 
-            <button class="btn btn-checkout" type="submit" name="cart">Go to Checkout</button>
+            <a href="/checkout" class="btn btn-checkout" type="submit" name="cart">Go to Checkout</a>
 
-        @endif
-
-
-
-
-
-
-
-
-
-
+            @endif
     </div>
 
 

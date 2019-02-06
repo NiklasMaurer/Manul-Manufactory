@@ -5,7 +5,6 @@
     <title>@yield('title') - Manul Manufactory</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="{{ asset('resources/assets/css/stylesheet.css') }}">
-    {{--<link rel="stylesheet" href="css/app.css">--}}
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('resources/assets/img/favicon-v3.png') }}">
 </head>
 <body>
@@ -41,20 +40,8 @@
                                 </form></li>
 
                         @elseif(Auth::check())
-                            {{--<li class="nav-logout">
-                                --}}{{--<a href="{{ route('logout') }}" class="btn session-btn">Logout {{ Auth::user()->name }}</a>--}}{{--
-                                <a href="{{ route('logout') }}"
-                                   onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    @csrf
-                                </form>
-                            </li>--}}
                             <li>
-                                <a href="{{ 'user' }}" id="sign-in" class="btn user-btn">Profile{{--{{ Auth::user()->name }}--}}</a><span class="backslash">|</span>
+                                <a href="{{ 'user' }}" id="sign-in" class="btn user-btn">Profile</a><span class="backslash">|</span>
                                 <a href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
@@ -66,9 +53,6 @@
                         @endif
 
                         @if(!Auth::check())
-                           {{-- <a href="{{ 'login' }}" class="btn session-btn">Login</a>
-                            <a href="" class="btn session-btn">Register</a>--}}
-                            {{--<li class=""><a href="/sign-in">Log In</a></li><span class="backslash">/</span> Sign Up</a></li>--}}
                             <li><a href="{{ 'login' }}">Log In</a><span class="backslash">|</span><a href="{{ 'register' }}" id="sign-in">Sign Up</a></li>
 
                         @endif
@@ -84,10 +68,6 @@
                 </div>
             </div>
 
-
-            <!-- <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div> -->
             <img class="icons nav-icon menu-icon" src="{{ asset('resources/assets/img/menu-icon-white-v4.png') }}"
                  alt="menu-icon">
         </div>
@@ -95,17 +75,7 @@
 
 </header>
 
-
-
-
-
 @yield('content')
-
-
-
-
-{{--@include('partials.footer')--}}
-
 
 <footer>
     <div class="footer-wrapper">

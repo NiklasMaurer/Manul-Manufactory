@@ -9,6 +9,8 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Exception;
+use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Session;
 
 class EditorController extends Controller
 {
@@ -21,13 +23,8 @@ class EditorController extends Controller
         $imgsrc = '/1-standard.png';
 
 
+
         return view('content.editor', compact('bodyparts', 'bricks', 'imgsrc'));
-
-
-
-       /* return view('content.editor', compact('bricks'));*/
-
-        /*return view('bodyparts.index', compact('bodyparts'));*/
     }
 
     /**
@@ -35,48 +32,13 @@ class EditorController extends Controller
      */
 
     public function editorPost(Request $request) {
-
+        /*Cookie::queue("cart", json_decode($request->cart, true), time() + 10 * 60);*/
         $cart = json_decode($request->cart, true);
 
+        Session::push("cart", $cart);
+        Session::save();
 
-
-   /*     for ($i = 1; $i<= count($cart); $i++) {
-            echo $cart[$i]['name'];
-        }*/
-
-
-
-       //foreach($cart as $key => $items):
-       // foreach($cart as $item):
-
-
-
-
-            /*dd($key);*/
-     /*   $name = Bodypart::with($items);*/
-            /*$cart[$name->name] = $item;*/
-
-        /*$name = Brick::with($item);
-        $test = Bodypart::with($item);
-
-        dd($test, $name );
-
-
-
-
-
-        endforeach;*/
-
-
-        /*dd($cart);*/
-
-       // endforeach;
-
-        return redirect()->to('/cart')->with(['cart' => $cart]);
-
-/*        return redirect()->route('Merchant view')->with( ['merchant' => $merchant] );*/
-
-       // return view('content.cart', compact('cart'));
+        return redirect()->to('/cart');
 
     }
 
