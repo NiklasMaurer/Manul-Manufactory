@@ -1,0 +1,159 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 1377,
+            "max" : [
+                533
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 534,
+            "max" : [
+                1.067973017692566,
+                0.15119799971580505,
+                -1.6474659442901611
+            ],
+            "min" : [
+                0.9906619787216187,
+                -0.15119799971580505,
+                -1.7549940347671509
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 534,
+            "max" : [
+                0.9998779296875,
+                1.0,
+                0.999603271484375
+            ],
+            "min" : [
+                -0.10257270932197571,
+                -1.0,
+                -0.9947202801704407
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 534,
+            "max" : [
+                1.0,
+                1.0,
+                0.9988241195678711,
+                1.0
+            ],
+            "min" : [
+                -0.9988376498222351,
+                -1.0,
+                -0.9989984631538391,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 534,
+            "max" : [
+                1.0687559843063354,
+                1.0
+            ],
+            "min" : [
+                -0.06875599920749664,
+                0.0
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2754,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6408,
+            "byteOffset" : 2756,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6408,
+            "byteOffset" : 9164,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8544,
+            "byteOffset" : 15572,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4272,
+            "byteOffset" : 24116,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 28388,
+            "uri" : "manul-mouth-standard.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "grp_cat cat_mouth",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "grp_cat cat_mouth",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

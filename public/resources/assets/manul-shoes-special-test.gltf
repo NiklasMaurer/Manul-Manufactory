@@ -1,0 +1,123 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 1272,
+            "max" : [
+                245
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 246,
+            "max" : [
+                8.410728454589844,
+                0.9697139859199524,
+                3.5271644592285156
+            ],
+            "min" : [
+                -4.364070892333984,
+                -1.9534897804260254,
+                -6.1478681564331055
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 246,
+            "max" : [
+                0.9864802956581116,
+                1.0,
+                0.999969482421875
+            ],
+            "min" : [
+                -0.9987487196922302,
+                -0.9899289011955261,
+                -0.999969482421875
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2544,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2952,
+            "byteOffset" : 2544,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2952,
+            "byteOffset" : 5496,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 8448,
+            "uri" : "manul-shoes-special-test.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.011",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "shoes-special.001",
+            "rotation" : [
+                0.7580926418304443,
+                -0.013498700223863125,
+                -0.6518181562423706,
+                0.01569865643978119
+            ],
+            "scale" : [
+                0.09939832240343094,
+                0.09939832240343094,
+                0.09939832240343094
+            ],
+            "translation" : [
+                0.03529579937458038,
+                -0.02784830331802368,
+                0.19522544741630554
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

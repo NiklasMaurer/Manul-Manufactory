@@ -1,0 +1,169 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 1440,
+            "max" : [
+                431
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 432,
+            "max" : [
+                0.40629199147224426,
+                -0.48575499653816223,
+                -0.5224528312683105
+            ],
+            "min" : [
+                -0.32725977897644043,
+                -1.6935442686080933,
+                -2.6129510402679443
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 432,
+            "max" : [
+                0.9952086210250854,
+                0.999053955078125,
+                0.9942930340766907
+            ],
+            "min" : [
+                -0.9884639978408813,
+                -0.999267578125,
+                -0.9953917264938354
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 432,
+            "max" : [
+                1.0,
+                0.9756935834884644,
+                0.8140683770179749,
+                1.0
+            ],
+            "min" : [
+                -0.9907082915306091,
+                -0.9833958745002747,
+                -0.9723119139671326,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 432,
+            "max" : [
+                0.642857015132904,
+                0.5
+            ],
+            "min" : [
+                0.21428599953651428,
+                0.0
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2880,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5184,
+            "byteOffset" : 2880,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5184,
+            "byteOffset" : 8064,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6912,
+            "byteOffset" : 13248,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3456,
+            "byteOffset" : 20160,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 23616,
+            "uri" : "manul-ears-flipped.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "grp_cat cat_l_ear.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "ears-flipped",
+            "rotation" : [
+                -0.045467134565114975,
+                -0.18815657496452332,
+                0.9797182679176331,
+                0.05178922787308693
+            ],
+            "scale" : [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation" : [
+                -0.0942302793264389,
+                0.7472211718559265,
+                1.048712968826294
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Manul-Manufactory
+
+php artisan serve ausführen, dann müsste alles funktionieren.
+
+Beispielsbenutzer: root@root.at
+pw: root
+
+Falls nichts funktioniert, ist das Projekt auch auf Heroku. "manul-manufactory.herokuapp.com"
+

@@ -1,0 +1,123 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 120,
+            "max" : [
+                23
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                4.822181701660156,
+                1.8266263008117676,
+                5.210225582122803
+            ],
+            "min" : [
+                -0.3007141947746277,
+                -0.6314125061035156,
+                2.3708512783050537
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                0.7531663179397583,
+                0.747123658657074,
+                0.8380687832832336
+            ],
+            "min" : [
+                -0.7854853868484497,
+                -0.7806329727172852,
+                -0.5973998308181763
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 240,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 240,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 528,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 816,
+            "uri" : "manul-mouth-vampire.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "vampire",
+            "rotation" : [
+                0.514229416847229,
+                0.48574140667915344,
+                -0.5036167502403259,
+                0.49597740173339844
+            ],
+            "scale" : [
+                0.05025114864110947,
+                0.05025114119052887,
+                0.05025114491581917
+            ],
+            "translation" : [
+                1.0088412761688232,
+                1.8063015937805176,
+                0.1086452454328537
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

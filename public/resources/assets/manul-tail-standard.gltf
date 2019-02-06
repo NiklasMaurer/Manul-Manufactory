@@ -1,0 +1,159 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 2520,
+            "max" : [
+                554
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 555,
+            "max" : [
+                -0.12918299436569214,
+                1.4678770303726196,
+                -0.43514299392700195
+            ],
+            "min" : [
+                -1.036520004272461,
+                -0.12287700176239014,
+                -1.5549540519714355
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 555,
+            "max" : [
+                1.0,
+                0.9986571669578552,
+                0.9998779296875
+            ],
+            "min" : [
+                -0.9863582253456116,
+                -0.9985350966453552,
+                -0.99969482421875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 555,
+            "max" : [
+                1.0,
+                0.9386409521102905,
+                0.739616334438324,
+                1.0
+            ],
+            "min" : [
+                -0.787317156791687,
+                -0.9452306032180786,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 555,
+            "max" : [
+                1.0,
+                0.5
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 5040,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6660,
+            "byteOffset" : 5040,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6660,
+            "byteOffset" : 11700,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8880,
+            "byteOffset" : 18360,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4440,
+            "byteOffset" : 27240,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 31680,
+            "uri" : "manul-tail-standard.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "grp_cat cat_tail",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "grp_cat cat_tail",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

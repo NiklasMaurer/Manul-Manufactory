@@ -1,0 +1,300 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 936,
+            "max" : [
+                362
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                0.9957219958305359,
+                0.6188390254974365,
+                -1.9284199476242065
+            ],
+            "min" : [
+                0.7957220077514648,
+                0.2786230146884918,
+                -2.1627979278564453
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                0.9727164506912231,
+                0.9773247241973877,
+                0.9897763133049011
+            ],
+            "min" : [
+                -0.6778466105461121,
+                -0.9812310934066772,
+                -0.9928586483001709
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                0.9041454792022705,
+                0.9811408519744873,
+                0.9917600750923157,
+                1.0
+            ],
+            "min" : [
+                -0.6629598736763,
+                -0.9383395314216614,
+                -0.9534377455711365,
+                1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                1.0,
+                1.0
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 936,
+            "max" : [
+                362
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                0.987824022769928,
+                -0.2892239987850189,
+                -1.9284939765930176
+            ],
+            "min" : [
+                0.7879509925842285,
+                -0.6292240023612976,
+                -2.162724018096924
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                0.9727164506912231,
+                0.9812616109848022,
+                0.9897763133049011
+            ],
+            "min" : [
+                -0.6778466105461121,
+                -0.9773247241973877,
+                -0.9928586483001709
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                0.9041345715522766,
+                0.9383269548416138,
+                0.9917620420455933,
+                -1.0
+            ],
+            "min" : [
+                -0.662942111492157,
+                -0.9811385273933411,
+                -0.953437328338623,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 363,
+            "max" : [
+                1.0,
+                1.0
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1872,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4356,
+            "byteOffset" : 1872,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4356,
+            "byteOffset" : 6228,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5808,
+            "byteOffset" : 10584,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 16392,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1872,
+            "byteOffset" : 19296,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4356,
+            "byteOffset" : 21168,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4356,
+            "byteOffset" : 25524,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5808,
+            "byteOffset" : 29880,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 35688,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 38592,
+            "uri" : "manul-eyes-standard.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "grp_cat cat_r_eye.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        },
+        {
+            "name" : "grp_cat cat_l_eye.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 7,
+                        "POSITION" : 6,
+                        "TANGENT" : 8,
+                        "TEXCOORD_0" : 9
+                    },
+                    "indices" : 5
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 1,
+            "name" : "grp_cat cat_l_eye.019",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0.00172194535844028,
+                -0.006809278391301632,
+                4.099487705389038e-05
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "grp_cat cat_r_eye.020",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0.00172194535844028,
+                -0.006809278391301632,
+                4.099487705389038e-05
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                0
+            ]
+        }
+    ]
+}

@@ -85,7 +85,7 @@
                     <div class="fields">
                         <label for="email">{{ __('Email') }}</label>
 
-                        <input id="email" type="email" class="form_input{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="z.B.: manul@email.com" required autofocus><br>
+                        <input id="email" type="email" class="form_input{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" placeholder="e.g. manul@email.com" required autofocus><br>
 
                         @if ($errors->has('email'))
                             <span class="invalid-feedback" role="alert">
@@ -97,7 +97,7 @@
 
                     <div class="fields">
                         <label for="password">{{ __('Password') }}</label><br>
-                        <input id="password" type="password" class="form_input{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="z.B.: manul123" required>
+                        <input id="password" type="password" class="form_input{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="e.g. manul123" required>
 
                         @if ($errors->has('password'))
                             <span class="invalid-feedback" role="alert">

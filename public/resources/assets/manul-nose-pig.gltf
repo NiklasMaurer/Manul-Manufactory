@@ -1,0 +1,123 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 258,
+            "max" : [
+                51
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 52,
+            "max" : [
+                2.93977689743042,
+                1.3743183612823486,
+                4.269899845123291
+            ],
+            "min" : [
+                -1.923431396484375,
+                -1.5681208372116089,
+                -4.119499683380127
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 52,
+            "max" : [
+                0.9872432351112366,
+                0.8979461193084717,
+                0.9620350003242493
+            ],
+            "min" : [
+                -0.981536328792572,
+                -0.12964263558387756,
+                -0.9564501047134399
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 516,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 624,
+            "byteOffset" : 516,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 624,
+            "byteOffset" : 1140,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1764,
+            "uri" : "manul-nose-pig.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.003",
+            "rotation" : [
+                0.0,
+                0.0,
+                -0.7306537628173828,
+                0.6827482581138611
+            ],
+            "scale" : [
+                0.05802463740110397,
+                0.05802463740110397,
+                0.05802463740110397
+            ],
+            "translation" : [
+                1.2162137031555176,
+                1.956255555152893,
+                0.0028817057609558105
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

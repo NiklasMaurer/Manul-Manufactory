@@ -35,9 +35,13 @@
 
         <h3>The following video shows you how to use our editor</h3>
 
-        <img src="{{ asset('resources/assets/img/video-dummy.jpg') }}" alt="Video" class="video">
+        <iframe src="https://player.vimeo.com/video/315430801" width="640" height="362" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="video"></iframe>
+
+        {{--<img src="{{ asset('resources/assets/img/video-dummy.jpg') }}" alt="Video" class="video">--}}
 
     </div>
+
+        {{--<button class="btn btn-add-to-cart"><a href="/editor">Let<span class="">'</span>s go</a></button>--}}
 
     </div>
 

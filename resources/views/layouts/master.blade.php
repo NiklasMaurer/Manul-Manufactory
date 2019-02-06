@@ -28,15 +28,37 @@
                     <ul class="start_nav">
 
                         <li class=""><a href="/editor">Editor</a></li>
-                        @if(Auth::check())
-                            <li class="nav-logout">
-                                {{--<a href="{{ route('logout') }}" class="btn session-btn">Logout {{ Auth::user()->name }}</a>--}}
+                        @if(Auth::check() && Auth::user()->user_group == 1)
+
+                            <li class="">
+                                <a href="/admin" class="btn user-btn">Admin</a><span class="backslash">|</span>
+                                <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form></li>
+
+                        @elseif(Auth::check())
+                            {{--<li class="nav-logout">
+                                --}}{{--<a href="{{ route('logout') }}" class="btn session-btn">Logout {{ Auth::user()->name }}</a>--}}{{--
                                 <a href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
 
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </li>--}}
+                            <li>
+                                <a href="{{ 'user' }}" id="sign-in" class="btn user-btn">Profile{{--{{ Auth::user()->name }}--}}</a><span class="backslash">|</span>
+                                <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
@@ -52,7 +74,10 @@
                         @endif
 
                         <li class=""><a href="/about-us">About Us</a></li>
+
                         <li class=""><a href="/cart">Cart</a></li>
+
+
 
                     </ul>
 

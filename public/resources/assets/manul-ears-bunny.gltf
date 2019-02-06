@@ -1,0 +1,169 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 5040,
+            "max" : [
+                1109
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1110,
+            "max" : [
+                -0.0343872606754303,
+                1.4678770303726196,
+                0.9151006937026978
+            ],
+            "min" : [
+                -1.036520004272461,
+                -1.762946367263794,
+                -1.5549540519714355
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1110,
+            "max" : [
+                1.0,
+                0.9986571669578552,
+                0.9998779296875
+            ],
+            "min" : [
+                -0.9945676922798157,
+                -0.9985350966453552,
+                -0.99969482421875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1110,
+            "max" : [
+                1.0,
+                0.9386409521102905,
+                0.9007408022880554,
+                1.0
+            ],
+            "min" : [
+                -0.787317156791687,
+                -0.9452306032180786,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1110,
+            "max" : [
+                1.0,
+                0.5
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 10080,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13320,
+            "byteOffset" : 10080,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13320,
+            "byteOffset" : 23400,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17760,
+            "byteOffset" : 36720,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8880,
+            "byteOffset" : 54480,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 63360,
+            "uri" : "manul-ears-bunny.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "grp_cat cat_tail.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "bunny",
+            "rotation" : [
+                0.5377458930015564,
+                -0.7046845555305481,
+                -0.37327542901039124,
+                0.2737053632736206
+            ],
+            "scale" : [
+                0.7752893567085266,
+                0.7752893567085266,
+                0.7752893567085266
+            ],
+            "translation" : [
+                -0.22319841384887695,
+                2.276000738143921,
+                -0.049996405839920044
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

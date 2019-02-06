@@ -1,0 +1,123 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 264,
+            "max" : [
+                51
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 52,
+            "max" : [
+                1.078588843345642,
+                0.7219812870025635,
+                1.5251564979553223
+            ],
+            "min" : [
+                -1.4578359127044678,
+                -0.3154665231704712,
+                -1.452872395515442
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 52,
+            "max" : [
+                0.7342753410339355,
+                0.9916074275970459,
+                0.8894924521446228
+            ],
+            "min" : [
+                -0.999725341796875,
+                -0.9959410429000854,
+                -0.9092990159988403
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 528,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 624,
+            "byteOffset" : 528,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 624,
+            "byteOffset" : 1152,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1776,
+            "uri" : "manul-mouth-tongue-test.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.006",
+            "rotation" : [
+                0.0,
+                0.0,
+                -0.7198227643966675,
+                0.6941578984260559
+            ],
+            "scale" : [
+                0.14930172264575958,
+                0.14930172264575958,
+                0.1493017077445984
+            ],
+            "translation" : [
+                1.0184088945388794,
+                1.5544623136520386,
+                -0.0009376099333167076
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

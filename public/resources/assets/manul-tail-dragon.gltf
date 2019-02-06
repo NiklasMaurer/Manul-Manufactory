@@ -1,0 +1,138 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 3636,
+            "max" : [
+                648
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 649,
+            "max" : [
+                2.9131407737731934,
+                0.30000001192092896,
+                1.04024076461792
+            ],
+            "min" : [
+                -0.3419142961502075,
+                -1.292832612991333,
+                -1.2142539024353027
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 649,
+            "max" : [
+                0.99951171875,
+                1.0,
+                0.9924619197845459
+            ],
+            "min" : [
+                -0.9773552417755127,
+                -0.9892879724502563,
+                -0.9912106394767761
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 649,
+            "max" : [
+                1.0,
+                1.0
+            ],
+            "min" : [
+                0.0,
+                0.0
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7272,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7788,
+            "byteOffset" : 7272,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7788,
+            "byteOffset" : 15060,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5192,
+            "byteOffset" : 22848,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 28040,
+            "uri" : "manul-tail-dragon.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cone.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cone.005",
+            "scale" : [
+                0.5141656398773193,
+                0.5141656398773193,
+                0.5141656398773193
+            ],
+            "translation" : [
+                -0.45178887248039246,
+                0.6873916387557983,
+                0.6486069560050964
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 7668,
+            "max" : [
+                1279
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1280,
+            "max" : [
+                4.683434009552002,
+                0.3034481108188629,
+                1.6544612646102905
+            ],
+            "min" : [
+                -1.25,
+                -0.25,
+                -1.25
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1280,
+            "max" : [
+                1.0,
+                0.99993896484375,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -0.99993896484375,
+                -1.0
+            ],
+            "type" : "VEC3"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 15336,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15360,
+            "byteOffset" : 15336,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15360,
+            "byteOffset" : 30696,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 46056,
+            "uri" : "manul-eyes-glasses.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Torus.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Torus.001",
+            "rotation" : [
+                -0.5625849366188049,
+                0.4859994649887085,
+                0.4820829927921295,
+                0.4635717272758484
+            ],
+            "scale" : [
+                0.2767629623413086,
+                0.27676305174827576,
+                0.27676308155059814
+            ],
+            "translation" : [
+                1.0211173295974731,
+                2.0394957065582275,
+                0.47643253207206726
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

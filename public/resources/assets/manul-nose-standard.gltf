@@ -1,0 +1,159 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 369,
+            "max" : [
+                101
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 102,
+            "max" : [
+                1.0817760229110718,
+                0.12647899985313416,
+                -1.8346209526062012
+            ],
+            "min" : [
+                0.9432719945907593,
+                -0.12647899985313416,
+                -2.017716884613037
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 102,
+            "max" : [
+                0.999969482421875,
+                0.9775994420051575,
+                0.99945068359375
+            ],
+            "min" : [
+                -0.04055909812450409,
+                -0.9775994420051575,
+                -0.9953306913375854
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 102,
+            "max" : [
+                0.4547504782676697,
+                0.9990940093994141,
+                0.9999796152114868,
+                1.0
+            ],
+            "min" : [
+                -0.4929202198982239,
+                -1.0,
+                -0.9850074648857117,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 102,
+            "max" : [
+                0.65625,
+                0.6875
+            ],
+            "min" : [
+                0.375,
+                0.020933985710144043
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 738,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1224,
+            "byteOffset" : 740,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1224,
+            "byteOffset" : 1964,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1632,
+            "byteOffset" : 3188,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 816,
+            "byteOffset" : 4820,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 5636,
+            "uri" : "manul-nose-standard.bin"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "grp_cat cat_nose",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "grp_cat cat_nose",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}
