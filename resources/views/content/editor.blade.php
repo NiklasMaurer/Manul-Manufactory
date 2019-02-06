@@ -45,7 +45,7 @@
                 @foreach($bricks as $key => $brick)
 
 
-                    <li data-content="{{ $brick->bodyparts_id }}" id="{{ $brick->bodyparts_id }}-{{ $brick->name }}" data-brick_id="{{ $brick->id }}" class="bodypart-id-{{ $brick->bodyparts_id }}"><img class="type-selector" src="{{ asset('storage/'.$brick->file) }}"> {{--src="{{ asset('resources/assets/img/1-standard.png') }}--}}{{ $brick->name }}</li>
+                    <li data-content="{{ $brick->bodyparts_id }}" id="{{ $brick->bodyparts_id }}-{{ $brick->name }}" data-brick_id="{{ $brick->id }}" class="bodypart-id-{{ $brick->bodyparts_id }}"><img class="type-selector" src="{{ asset('resources/assets/img/'.$brick->file) }}"> {{--src="{{ asset('resources/assets/img/1-standard.png') }}--}}{{ $brick->name }}</li>
 
 
                 {{--asset('resources/assets/img/'.$brick->file) }}--}}
