@@ -45,10 +45,10 @@
 
                                 <h6 class="price">€25,-</h6>
 
-                                <label for="select">
+                                {{--<label for="select">
                                     <input type="number" class="quantity" name="quantity" min="1" value="1"
                                            placeholder="1">
-                                </label>
+                                </label>--}}
 
                             </div>
 
@@ -57,7 +57,7 @@
 
                     </div>
 
-            <a href="/checkout" class="btn btn-checkout" type="submit" name="cart">Go to Checkout</a>
+            <a href="/checkout" class="btn btn-checkout btn-cart-editor" type="submit" name="cart">Go to Checkout</a>
 
             @endif
     </div>

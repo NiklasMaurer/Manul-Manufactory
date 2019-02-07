@@ -1035,6 +1035,11 @@ hr {
     margin: 45px auto 0;
 }
 
+.textblock-checkout{
+    text-align: center;
+    max-width: 900px;
+}
+
 
 
 

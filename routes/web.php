@@ -67,9 +67,14 @@ Route::middleware('auth')->group(function() {
     Route::patch('/user/update', ['as' => 'users.update', 'uses' => 'UserController@update']);
 
     Route::get('/checkout', ['as' => 'content.checkout', 'uses' => 'UserController@editAdress']);
+
     Route::post('/checkout', ['as' => 'content.checkoutPost', 'uses' => 'UserController@postAdress']);
 
     Route::patch('/checkout/update', ['as' => 'content.updateAdress', 'uses' => 'UserController@updateAdress']);
+
+    Route::get('/success', function () {
+        return view('content.checkout-success');
+    });
 
 });
 

@@ -126,7 +126,7 @@ class UserController extends Controller
         }
         $order->users_id = Auth::user()->id;
         $order->save();
-        return redirect()->to("/checkout/success")->with("success", "Successfully ordered!");
+        return redirect()->to("/success");
 
 
     }

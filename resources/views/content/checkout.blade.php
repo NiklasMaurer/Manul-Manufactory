@@ -125,10 +125,10 @@
 
                             <h6 class="price">€25,-</h6>
 
-                            <label for="select">
+                           {{--<label for="select">
                                 <input type="number" class="quantity" name="quantity" min="1" value="1"
                                        placeholder="1">
-                            </label>
+                            </label>--}}
 
                         </div>
 
