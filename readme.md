@@ -67,8 +67,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 php artisan serve ausführen, dann müsste alles funktionieren.
 
+Die Datei im Ordner "sql-dumps" sollte in sequel pro importiert werden um die Website local zu laden.
+.env file muss eventuell angepasst werden.
+
+Ansonsten sollte auch alles über heroku funktionieren: "manul-manufactory.herokuapp.com"
+
 Beispielsbenutzer: root@root.at
 pw: root
-
-Falls nichts funktioniert, ist das Projekt auch auf Heroku. "manul-manufactory.herokuapp.com"
 
