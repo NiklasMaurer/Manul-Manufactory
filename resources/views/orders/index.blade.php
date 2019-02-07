@@ -5,7 +5,7 @@
 
     <div class="content">
 
-        <div class="about-us-wrapper">
+        <div class="about-us-wrapper about-us-wrapper-backend">
 
 
                 <h2>Orders</h2>

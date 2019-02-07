@@ -1558,6 +1558,10 @@ dd{
     .wrapper-type {
         width: 528px;
     }
+
+        .about-us-wrapper-backend{
+            margin-left: 40px;
+        }
 }
 
     @media screen and (max-width: 500px) {
