@@ -33,13 +33,9 @@
                         <div class="cart-item-wrap">
 
                             <div class="cart-item-list">
-                                {{--<form method="post" class="cart-del-wrapper"><input type="hidden" name="key" value="<?/*= $key */ ?>">
+                                <form method="post" class="cart-del-wrapper"><input type="hidden" name="key" value="<?/*= $key */ ?>">
                                     <button type="submit" class="cart-del" name="warenkorb_del">X</button>
-                                </form>--}}
-                                <div method="post" class="cart-del-wrapper">
-                                    <input type="hidden" name="del_key" value="{{ $key }}">
-                                    <button type="submit" class="cart-del" name="warenkorb_del" value="set">X</button>
-                                </div>
+                                </form>
                                 <ul>
                                     @foreach($item as $idx => $part)
                                         <li>{{ $idx . ' ' . $part['name'] }}</li>
