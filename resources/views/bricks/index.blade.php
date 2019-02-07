@@ -25,8 +25,7 @@
 
 
             <div class="btn-wrapper btn-wrapper-backend" role="group">
-                <a href="{{ route('bricks.brick.create') }}" class="btn btn-backend" title="Create New Brick">
-                    <span aria-hidden="true">Create</span>
+                <a href="{{ route('bricks.brick.create') }}" class="btn btn-backend" title="Create New Brick">Create
                 </a>
 
             </div>

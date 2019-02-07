@@ -43,8 +43,6 @@
                     @foreach($bodyparts as $bodypart)
                         <tr>
                             <td>{{ $bodypart->name }}</td>
-                            {{--<td>{{ optional($bodypart->creator)->name }}</td>
-                            <td>{{ optional($bodypart->updater)->name }}</td>--}}
 
                             <td>
 

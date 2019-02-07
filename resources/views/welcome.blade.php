@@ -8,7 +8,7 @@
 
 
 
-    <img src="{{ asset('resources/assets/img/greeting.png') }}" alt="Welcome to Manul Manufactory" class="greeting">
+    <img src="{{ asset('resources/assets/img/greeting-new.png') }}" alt="Welcome to Manul Manufactory" class="greeting">
 
 
     <div class="bubbles">

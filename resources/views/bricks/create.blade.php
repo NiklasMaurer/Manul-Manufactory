@@ -13,7 +13,6 @@
 
             <div class="btn-wrapper btn-wrapper-edit" role="group">
                 <a href="{{ route('bricks.brick.index') }}" class="btn btn-backend" title="Show All Bricks">Show all
-                    <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
                 </a>
             </div>
 

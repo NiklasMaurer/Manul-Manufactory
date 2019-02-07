@@ -15,19 +15,15 @@
             {{ csrf_field() }}
                 <div class="btn-wrapper btn-wrapper-show" role="group">
                     <a href="{{ route('orders.order.index') }}" class="btn btn-backend" title="Show All Orders">Show all
-                        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
                     </a>
 
                     <a href="{{ route('orders.order.create') }}" class="btn btn-backend" title="Create New Order">Create
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                     </a>
                     
                     <a href="{{ route('orders.order.edit', $order->id ) }}" class="btn btn-backend" title="Edit Order">Edit
-                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                     </a>
 
                     <button type="submit" class="btn btn-backend btn-danger" title="Delete Order" onclick="return confirm(&quot;Delete Order??&quot;)">Delete
-                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                     </button>
                 </div>
             </form>

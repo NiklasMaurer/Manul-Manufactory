@@ -11,7 +11,6 @@
 
             <div class="btn-wrapper btn-wrapper-edit" role="group">
                 <a href="{{ route('bodyparts.bodypart.index') }}" class="btn btn-backend" title="Show All Bodyparts">Show all
-                    <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
                 </a>
             </div>
 

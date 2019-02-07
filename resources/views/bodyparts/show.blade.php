@@ -17,15 +17,12 @@
             {{ csrf_field() }}
                 <div class="btn-wrapper btn-wrapper-show" role="group">
                     <a href="{{ route('bodyparts.bodypart.index') }}" class="btn btn-backend" title="Show All Bodypart">Show all
-                        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
                     </a>
 
                     <a href="{{ route('bodyparts.bodypart.create') }}" class="btn btn-backend" title="Create New Bodypart">Create
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                     </a>
                     
                     <a href="{{ route('bodyparts.bodypart.edit', $bodypart->id ) }}" class="btn btn-backend" title="Edit Bodypart">Edit
-                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                     </a>
 
                     <button type="submit" class="btn btn-backend btn-danger" title="Delete Bodypart" onclick="return confirm(&quot;Delete Bodypart??&quot;)">Delete

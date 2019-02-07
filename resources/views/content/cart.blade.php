@@ -8,7 +8,9 @@
 
         <h2 class="auth-headline">Cart</h2>
 
-        @if(count($cart) <= 0)
+        @if(!$cart)
+
+            {{--@if(count($cart) <= 0)--}}
 
 
         <div class="cart-wrapper cart-wrapper-empty">

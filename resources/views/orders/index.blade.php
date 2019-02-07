@@ -23,8 +23,7 @@
             @endif
 
             <div class="btn-wrapper btn-wrapper-backend" role="group">
-                <a href="{{ route('orders.order.create') }}" class="btn btn-backend" title="Create New Order">
-                    <span aria-hidden="true">Create</span>
+                <a href="{{ route('orders.order.create') }}" class="btn btn-backend" title="Create New Order">Create
                 </a>
             </div>
 
@@ -41,13 +40,6 @@
                         <tr>
                             <th class="th-order-user">Users</th>
                             <th class="th-brick-name">Order id</th>
-                            {{--<th>Eyes</th>
-                            <th>Noses</th>
-                            <th>Mouths</th>
-                            <th>Tails</th>
-                            <th>Shoes</th>
-                            <th>Created By</th>
-                            <th>Updated By</th>--}}
                         </tr>
                     </thead>
                     <tbody>
@@ -55,14 +47,6 @@
                         <tr>
                             <td>{{ optional($order->user)->name }}</td>
                             <td class="td-brick-name">{{ optional($order)->id }}</td>
-                            {{--<td>{{ optional($order->ear)->name }}</td>
-                            <td>{{ optional($order->eye)->name }}</td>
-                            <td>{{ optional($order->nose)->name }}</td>
-                            <td>{{ optional($order->mouth)->name }}</td>
-                            <td>{{ optional($order->tail)->name }}</td>
-                            <td>{{ optional($order->shoe)->name }}</td>
-                            <td>{{ optional($order->creator)->name }}</td>
-                            <td>{{ optional($order->updater)->name }}</td>--}}
 
                             <td>
 
@@ -71,15 +55,12 @@
                                 {{ csrf_field() }}
 
                                     <div class="btn-wrapper btn-wrapper-backend" role="group">
-                                        <a href="{{ route('orders.order.show', $order->id ) }}" class="btn btn-backend btn-table" title="Show Order">
-                                            <span class="glyphicon glyphicon-open" aria-hidden="true"></span>Show
+                                        <a href="{{ route('orders.order.show', $order->id ) }}" class="btn btn-backend btn-table" title="Show Order">Show
                                         </a>
-                                        <a href="{{ route('orders.order.edit', $order->id ) }}" class="btn btn-backend btn-table" title="Edit Order">
-                                            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Edit
+                                        <a href="{{ route('orders.order.edit', $order->id ) }}" class="btn btn-backend btn-table" title="Edit Order">Edit
                                         </a>
 
-                                        <button type="submit" class="btn btn-backend btn-danger btn-table" title="Delete Order" onclick="return confirm(&quot;Delete Order?&quot;)">
-                                            <span aria-hidden="true"></span>Delete
+                                        <button type="submit" class="btn btn-backend btn-danger btn-table" title="Delete Order" onclick="return confirm(&quot;Delete Order?&quot;)">Delete
                                         </button>
                                     </div>
 
