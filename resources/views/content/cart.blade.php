@@ -34,9 +34,9 @@
 
                             <div class="cart-item-list">
                                 <h4>custom softtoy</h4>
-                                {{--<form method="post" class="cart-del-wrapper"><input type="hidden" name="key" value="<?/*= $key */ ?>">
+                                <!--<form method="post" class="cart-del-wrapper"><input type="hidden" name="key" value="<?/*= $key */ ?>">
                                     <button type="submit" class="cart-del" name="warenkorb_del">X</button>
-                                </form>--}}
+                                </form>-->
                                 <ul>
                                     @foreach($item as $idx => $part)
                                         <li>{{ $idx . ' ' . $part['name'] }}</li>
