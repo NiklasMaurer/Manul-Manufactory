@@ -113,11 +113,13 @@
                     <div class="cart-item-wrap">
 
                         <div class="cart-item-list">
-                            <div method="post" class="cart-del-wrapper">
+                            <h4>custom softtoy</h4>
+                            {{--<div method="post" class="cart-del-wrapper">
                                 <input type="hidden" name="del_key" value="{{ $key }}">
                                 <button type="submit" class="cart-del" name="warenkorb_del" value="set">X</button>
-                            </div>
+                            </div>--}}
                             <ul>
+
                                 @foreach($item as $idx => $part)
                                     <li>{{ $idx . ' ' . $part['name'] }}</li>
                                 @endforeach

@@ -944,7 +944,7 @@ hr {
     border-radius: 5px;
     padding: 25px;
     color: #7F807F;
-    margin: 50px 10px 25px;
+    /*margin: 50px 10px 25px;*/
     font-family: 'Königsberg', sans-serif;
     letter-spacing: 1.2px;
 }
@@ -960,6 +960,11 @@ hr {
     border-radius: 5px;
     margin: 5px;
     font-family: 'Robaga Rounded', sans-serif;
+}
+
+h4{
+    margin-bottom: 0;
+    color: #7E807E;
 }
 
 .arrow{
