@@ -1,8 +1,8 @@
 {
-  "name": "Manul-Manufactory",
-  "short_name": "Manulfactory",
-  "theme_color": "#B1CD44",
-  "background_color": "#2196f3",
+  "name": "Manul Manufactory",
+  "short_name": "Manul",
+  "theme_color": "#B0CC44",
+  "background_color": "#D8EEFE",
   "display": "fullscreen",
   "Scope": "/",
   "start_url": "/",

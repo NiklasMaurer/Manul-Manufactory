@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>@yield('title') - Manul Manufactory</title>
     <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#B0CC44">
     <link rel="stylesheet" href="{{ asset('resources/assets/css/stylesheet.css') }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('resources/assets/img/favicon-v3.png') }}">
 </head>
