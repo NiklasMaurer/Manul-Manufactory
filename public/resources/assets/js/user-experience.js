@@ -485,6 +485,42 @@ if($('#myCanvas').length) {
 
         });
 
+        $('#3-funky').on('click', function () {
+
+            var sceneObj = isInSceneAndGet(3);
+            console.log(sceneObj);
+            if (sceneObj) {
+                scene.remove(sceneObj)
+            }
+
+            addToCart(3, 14);
+
+            loader.load(path7, function (gltf) {
+                console.log(gltf);
+                var mesh = gltf.scene.children[0];
+                mesh.name = 3;
+
+                mesh.material = new THREE.MeshNormalMaterial;
+                mesh.position.set(0.071, 0.23, -18.95);
+                mesh.rotateY(0);
+                mesh.rotateX(0);
+                mesh.rotateZ(1.5);
+                mesh.castShadow = true;
+
+                scene.add(mesh);
+
+
+                requestAnimationFrame(render);
+
+
+            }, undefined, function (e) {
+
+                console.error(e);
+
+            });
+
+        });
+
         $('#4-standard').on('click', function () {
 
             var sceneObj = isInSceneAndGet(4);
