@@ -831,22 +831,14 @@ if($('#myCanvas').length) {
 
         });
 
+        var delta = 0;
 
 
 
         $('#animate').on('click', function () {
 
-            var delta = 0;
 
-            delta += 0.01;
-
-            var light2 = new THREE.PointLight(0xffffff, 0.5);
-
-            light2.position.z = -100;
-            light2.target = mesh;
-            scene.add(light2);
-
-            if(delta >= 0){
+            if(delta > 0){
                 render();
 
 
@@ -869,11 +861,41 @@ if($('#myCanvas').length) {
 
                 console.log(delta);
 
+                console.log('stop');
+
             }else{
 
-                console.log('hallo');
+                console.log('dance');
+
+                /*delta += 0.01;*/
+
+                var light2 = new THREE.PointLight(0xffffff, 0.1);
+
+                light2.position.z = -100;
+                light2.target = mesh;
+                scene.add(light2);
+
+                render();
+
 
                 function render() {
+
+
+                    delta += 0.08;
+
+                    camera.lookAt(mesh.position);
+
+                    camera.position.x = Math.sin(delta) * 9;
+
+
+                    renderer.render(scene, camera);
+
+                    requestAnimationFrame(render);
+                }
+
+                renderer.render(scene, camera);
+
+                /*function render() {
 
                     delta += 0.1;
 
@@ -887,7 +909,7 @@ if($('#myCanvas').length) {
                     requestAnimationFrame(render);
                 }
 
-                renderer.render(scene, camera);
+                renderer.render(scene, camera);*/
 
 
 

@@ -1,5 +1,7 @@
 //RENDERER
 
+const mq = window.matchMedia( "(max-width: 500px)" );
+
 var renderer = new THREE.WebGLRenderer({canvas: document.getElementById('myCanvas'), antialias: true, alpha: true});
 renderer.setClearColor(0x00ff00);
 renderer.setPixelRatio(window.devicePixelRatio);
@@ -12,6 +14,10 @@ renderer.gammaFactor = 2.2;
 
 var camera = new THREE.PerspectiveCamera( 10, window.innerWidth / window.innerHeight, 0.1, 3000);
 
+/*if(mq.matches){
+    camera = new THREE.PerspectiveCamera(17, window.innerWidth / window.innerHeight, 0.1, 3000);
+    renderer.setSize(200, 200);
+}*/
 
 //SCENE
 var scene = new THREE.Scene();

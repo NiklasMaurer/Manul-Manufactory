@@ -1513,6 +1513,7 @@ dd{
 
     #myCanvas {
         margin: 0;
+       /* width: 320px !important;*/
     }
 
     .btn-add-to-cart {
@@ -1675,10 +1676,10 @@ dd{
             width: 374px;
         }
 
-        .wrapper-canvas{
+       /* .wrapper-canvas{
             display: flex;
             justify-content: flex-start;
-        }
+        }*/
 
         /**/
 
