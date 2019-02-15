@@ -757,7 +757,7 @@ if($('#myCanvas').length) {
 
         });
 
-        $('#6-special').on('click', function () {
+        $('#6-funky').on('click', function () {
 
             var sceneObj = isInSceneAndGet(6);
 
