@@ -746,6 +746,17 @@ nav {
     transition: 0.2s;
 }
 
+.link-register{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Robaga Rounded light', sans-serif;
+    color: #7E807E;
+    letter-spacing: 0.2px;
+}
+
+
+
 
 /*Conditions*/
 
@@ -845,7 +856,7 @@ label{
 
 ::-webkit-input-placeholder {
     color: #FBBE24;
-    padding-left: 0.8em;
+   /* padding-left: 0.8em;*/
     opacity: 0.7;
     font-family: 'Robaga Rounded', sans-serif;
 }
@@ -1001,7 +1012,7 @@ h4{
 .btn-cart-editor{
     text-decoration: none;
     line-height: 60px;
-    margin-top: 80px;
+    /*margin-top: 80px;*/
 }
 
 .cart-del{

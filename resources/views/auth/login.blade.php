@@ -76,6 +76,7 @@
     <div class="content" xmlns="http://www.w3.org/1999/html">
 
         <h2 class="auth-headline">Log In</h2>
+        <span class="link-register">Not registered yet? &nbsp;<a href="/register" class="link">Click here</a></span>
 
         <form method="POST" action="{{ route('login') }}" class="form-group">
             @csrf
